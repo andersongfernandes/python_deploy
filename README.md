@@ -22,6 +22,48 @@ Feedback and Contributions:
 
 We welcome contributions, suggestions, and feedback to improve this guide and make it more helpful for the community. Feel free to open issues or pull requests.
 
+STEP BY STEP
+install virtual enviroment
+$ py -m venv .venv
+
+activate virtual enviroment
+$ .venv\Scripts\activate
+
+deactivate virtual enviroment
+$ (.venv) deactivate
+
+install dependencies
+$ (.venv) pip install requests python-dotenv Flask
+
+upgrade the Python package manager
+$ (.venv) py -m pip install -U pip
+
+create requirements.txt
+$ (.ven) pip freeze > requirements.txt
+
+create .env file
+
+create .gitignore
+	.venv
+	.env
+
+create github repositorie
+$ (.ven) git .init
+
+create a production-quality pure-Python WSGI (Web Server Gateway Interface) server
+$ (.ven) pip install waitress
+
+update requirements.txt
+$ (.ven) pip freeze > requirements.txt
+
+create your app
+
+manage version using github
+@ (.env) git add . 
+@ (.env) git remote add origin <githit_repositorie_link>
+@ (.env) git push --set-upstream origin main
+
+
 License:
 
 This repository is open-source and available under the MIT License.
