@@ -24,6 +24,7 @@ We welcome contributions, suggestions, and feedback to improve this guide and ma
 
 
 STEP BY STEP
+
 install virtual enviroment
 $ py -m venv .venv
 
