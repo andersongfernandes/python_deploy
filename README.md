@@ -25,23 +25,17 @@ We welcome contributions, suggestions, and feedback to improve this guide and ma
 
 STEP BY STEP
 
-install virtual enviroment
-$ py -m venv .venv
+install virtual enviroment: $ py -m venv .venv
 
-activate virtual enviroment
-$ .venv\Scripts\activate
+activate virtual enviroment: $ .venv\Scripts\activate
 
-deactivate virtual enviroment
-$ (.venv) deactivate
+deactivate virtual enviroment: $ (.venv) deactivate
 
-install dependencies
-$ (.venv) pip install requests python-dotenv Flask
+install dependencies: $ (.venv) pip install requests python-dotenv Flask
 
-upgrade the Python package manager
-$ (.venv) py -m pip install -U pip
+upgrade the Python package manager: $ (.venv) py -m pip install -U pip
 
-create requirements.txt
-$ (.ven) pip freeze > requirements.txt
+create requirements.txt: $ (.ven) pip freeze > requirements.txt
 
 create .env file
 
@@ -49,14 +43,11 @@ create .gitignore
 	.venv
 	.env
 
-create github repositorie
-$ (.ven) git .init
+create github repositorie: $ (.ven) git .init
 
-create a production-quality pure-Python WSGI (Web Server Gateway Interface) server
-$ (.ven) pip install waitress
+create a production-quality pure-Python WSGI (Web Server Gateway Interface) server: $ (.ven) pip install waitress
 
-update requirements.txt
-$ (.ven) pip freeze > requirements.txt
+update requirements.txt: $ (.ven) pip freeze > requirements.txt
 
 create your app
 
